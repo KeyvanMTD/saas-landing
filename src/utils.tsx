@@ -31,6 +31,7 @@ export const getPlatformIconByName = (platformName: string): JSX.Element | null 
             console.log('Platform name not supported, no icon is returned:', platformName);
             return null;
     }
+}
 
 export const getBenefitIconByName = (iconName: string): JSX.Element | null => {
     switch (iconName) {
