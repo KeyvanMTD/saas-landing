@@ -1,5 +1,5 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
+    heading: 'Agents IA Experts pour Automatiser Votre Travail',
+    subheading: 'Déployez des agents IA spécialisés qui comprennent votre métier et exécutent vos tâches complexes avec une précision d\'expert',
     centerImageSrc: '/images/hero-mockup.webp',
 }

@@ -3,23 +3,23 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: `${siteDetails.siteName} est-il sécurisé ?`,
+        answer: 'Absolument. Nous utilisons un chiffrement de niveau bancaire pour protéger vos données et respectons strictement le RGPD. Vos informations sensibles ne quittent jamais votre environnement sécurisé.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: `Puis-je utiliser ${siteDetails.siteName} sur plusieurs appareils ?`,
+        answer: 'Bien sûr ! Votre compte se synchronise parfaitement sur tous vos appareils - ordinateur, tablette et smartphone. Vos agents IA sont accessibles partout.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: 'Puis-je intégrer mes outils existants ?',
+        answer: `Oui ! ${siteDetails.siteName} s'intègre avec plus de 500 applications métier : CRM, ERP, outils de communication, bases de données, et bien plus encore.`
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: 'Faut-il des compétences techniques pour créer des agents ?',
+        answer: 'Pas du tout ! Notre interface intuitive permet à chacun de créer des agents IA puissants sans aucune programmation. Nos templates prêts à l\'emploi vous font gagner du temps.',
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: 'Que faire si j\'ai besoin d\'aide ?',
+        answer: 'Notre équipe support dédiée est disponible 24/7 par chat ou email. Nous proposons aussi des formations personnalisées et une base de connaissances complète.'
     }
 ];

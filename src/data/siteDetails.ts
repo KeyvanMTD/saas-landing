@@ -1,9 +1,9 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'AI Expert',
+    siteUrl: 'https://ai-expert.com/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'AI Expert - Agents IA Intelligents pour Votre Entreprise',
+        description: 'AI Expert révolutionne votre productivité avec des agents IA spécialisés qui automatisent vos tâches complexes.',
     },
     language: 'en-us',
     locale: 'en-US',

@@ -1,69 +1,69 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
+import { FiBrain, FiCpu, FiZap, FiLock, FiUsers, FiShield, FiTarget, FiTrendingUp, FiSettings } from "react-icons/fi";
 
 import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
     {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+        title: "Agents IA Spécialisés",
+        description: "Créez des agents IA experts dans votre domaine. Chaque agent comprend votre contexte métier et s'adapte à vos besoins spécifiques.",
         bullets: [
             {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
-                icon: <FiBarChart2 size={26} />
+                title: "IA Contextuelle",
+                description: "Agents qui comprennent votre secteur et vos processus métier.",
+                icon: <FiBrain size={26} />
             },
             {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
+                title: "Objectifs Personnalisés",
+                description: "Configurez des missions et KPIs adaptés à vos besoins.",
                 icon: <FiTarget size={26} />
             },
             {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
+                title: "Apprentissage Continu",
+                description: "Vos agents s'améliorent automatiquement avec chaque interaction.",
                 icon: <FiTrendingUp size={26} />
             }
         ],
         imageSrc: "/images/mockup-1.webp"
     },
     {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+        title: "Automatisation Intelligente",
+        description: "Automatisez vos tâches complexes sans programmation. Nos agents IA s'occupent du travail répétitif pour vous.",
         bullets: [
             {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
-                icon: <FiDollarSign size={26} />
+                title: "Déploiement Rapide",
+                description: "Lancez vos agents en quelques minutes, sans code requis.",
+                icon: <FiZap size={26} />
             },
             {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
-                icon: <FiBriefcase size={26} />
+                title: "Workflows Intelligents",
+                description: "Créez des processus automatisés qui s'adaptent aux situations.",
+                icon: <FiCpu size={26} />
             },
             {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
-                icon: <FiPieChart size={26} />
+                title: "Collaboration d'Équipe",
+                description: "Partagez vos agents avec votre équipe et travaillez ensemble.",
+                icon: <FiUsers size={26} />
             }
         ],
         imageSrc: "/images/mockup-2.webp"
     },
     {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
+        title: "Sécurité Entreprise",
+        description: "Vos données et processus sont protégés par une sécurité de niveau entreprise. Conformité RGPD garantie.",
         bullets: [
             {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
+                title: "Chiffrement Avancé",
+                description: "Toutes vos données sont chiffrées avec les standards les plus élevés.",
                 icon: <FiLock size={26} />
             },
             {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
-                icon: <FiUser size={26} />
+                title: "Contrôles d'Accès",
+                description: "Gérez finement qui peut accéder à quels agents et données.",
+                icon: <FiSettings size={26} />
             },
             {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
+                title: "Conformité RGPD",
+                description: "Respect total des réglementations européennes sur la protection des données.",
                 icon: <FiShield size={26} />
             }
         ],

@@ -19,16 +19,16 @@ const HomePage: React.FC = () => {
 
         <Section
           id="pricing"
-          title="Pricing"
-          description="Simple, transparent pricing. No surprises."
+          title="Tarifs"
+          description="Tarification simple et transparente. Aucune surprise."
         >
           <Pricing />
         </Section>
 
         <Section
           id="testimonials"
-          title="What Our Clients Say"
-          description="Hear from those who have partnered with us."
+          title="Ce Que Disent Nos Clients"
+          description="Découvrez les témoignages de ceux qui nous font confiance."
         >
           <Testimonials />
         </Section>

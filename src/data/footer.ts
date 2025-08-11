@@ -7,23 +7,23 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Révolutionnons votre productivité avec des agents IA intelligents et spécialisés.",
     quickLinks: [
         {
-            text: "Features",
+            text: "Fonctionnalités",
             url: "#features"
         },
         {
-            text: "Pricing",
+            text: "Tarifs",
             url: "#pricing"
         },
         {
-            text: "Testimonials",
+            text: "Témoignages",
             url: "#testimonials"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'contact@ai-expert.com',
+    telephone: '+33 1 23 45 67 89',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',

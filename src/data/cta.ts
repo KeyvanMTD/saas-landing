@@ -1,6 +1,6 @@
 export const ctaDetails = {
-    heading: 'Join Over 1 Million Users To Transform Your Finances',
-    subheading: 'Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!',
-    appStoreUrl: '#',
-    googlePlayUrl: '#'
+    heading: 'Rejoignez Plus de 10 000 Entreprises Qui Automatisent Avec l\'IA',
+    subheading: 'Votre transformation digitale commence ici. Démarrez votre essai gratuit d\'AI Expert et découvrez la puissance des agents IA !',
+    appStoreUrl: '#demo',
+    googlePlayUrl: '#signup'
 }
