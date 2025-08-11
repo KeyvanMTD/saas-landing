@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 
 import { IBenefitBullet } from "@/types"
+import { getBenefitIconByName } from "@/utils"
 import { childVariants } from "./BenefitSection"
 
 const BenefitBullet: React.FC<IBenefitBullet> = ({ title, description, icon }: IBenefitBullet) => {
@@ -10,7 +11,7 @@ const BenefitBullet: React.FC<IBenefitBullet> = ({ title, description, icon }: I
             variants={childVariants}
         >
             <div className="flex justify-center mx-auto lg:mx-0 flex-shrink-0 mt-3 w-fit">
-                {icon}
+                {getBenefitIconByName(icon)}
             </div>
             <div>
                 <h4 className="text-lg font-semibold">
