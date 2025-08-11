@@ -1,5 +1,5 @@
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaThreads, FaTwitter, FaXTwitter, FaYoutube } from "react-icons/fa6";
-import { FiLightbulb, FiCpu, FiZap, FiLock, FiUsers, FiShield, FiTarget, FiTrendingUp, FiSettings } from "react-icons/fi";
+import { FiCpu, FiZap, FiLock, FiUsers, FiShield, FiTarget, FiTrendingUp, FiSettings } from "react-icons/fi";
 
 export const getPlatformIconByName = (platformName: string): JSX.Element | null => {
     switch (platformName) {
@@ -36,7 +36,7 @@ export const getPlatformIconByName = (platformName: string): JSX.Element | null 
 export const getBenefitIconByName = (iconName: string): JSX.Element | null => {
     switch (iconName) {
         case 'FiBrain': {
-            return <FiLightbulb size={26} />;
+            return <FiCpu size={26} />;
         }
         case 'FiCpu': {
             return <FiCpu size={26} />;
